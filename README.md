@@ -4,6 +4,8 @@ A collaborative filtering recommender system that suggests video games to Steam 
 
 The full workflow lives in [`recommender_system.ipynb`](recommender_system.ipynb).
 
+Click [here](https://htmlpreview.github.io/?https://github.com/itsveence/steam_video_game_recommender_sys/blob/master/recommender_system.html) to preview the notebook.
+
 ## Overview
 
 The dataset contains implicit feedback — users don't rate games explicitly; instead we observe whether they purchased a game and how long they played it. The pipeline turns this signal into a relevance score, factorises the sparse user–item matrix with ALS, and produces personalised top-N recommendations. It can also **explain** why a particular game was recommended to a particular user.
